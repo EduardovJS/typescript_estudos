@@ -25,3 +25,8 @@ var Direction;
   Direction[(Direction["Down"] = 2)] = "Down";
 })(Direction || (Direction = {}));
 const direction = Direction.Up;
+console.log(direction);
+// Type Assertions
+const productName = "Teste";
+let itemId = productName;
+let itemId1 = productName;
