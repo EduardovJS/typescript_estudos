@@ -15,6 +15,7 @@ const firstValueFromNumberArray = getFirstValueFromArray<Number>([1, 2, 3]);
 const firstValueFromStringArray = getFirstValueFromArray(["A", "AS"]);
 
 // Promises
+// Promise é um objeto que representa a eventual conclusão ou falha de uma operação assíncrona
 const minhaPromise = new Promise<string>((resolve, rejeita) => {
   const sucesso = false;
 

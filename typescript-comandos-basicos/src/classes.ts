@@ -25,7 +25,7 @@ class Employee extends Perso {
 }
 const eduardo = new Perso(1, "Eduardo", 22);
 
-// Mesma coisa que acima.
+// Mesma coisa que acima
 class Shorthand {
   constructor(readonly id: number, readonly name: string) {}
 }
