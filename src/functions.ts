@@ -22,3 +22,18 @@ sum3(1, 2);
 const log = (message: string): void => {
   console.log(message);
 };
+
+// function com interface
+interface MathFunc {
+  (x: number, y: number): number;
+}
+
+// Implementando a interface para somar
+const sum4: MathFunc = (x: number, y: number): number => {
+  return x + y;
+};
+
+// Implementando a interface para subtrair
+const sub: MathFunc = (x: number, y: number): number => {
+  return x - y;
+};
