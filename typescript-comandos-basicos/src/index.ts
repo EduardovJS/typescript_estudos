@@ -36,3 +36,5 @@ console.log(direction);
 const productName: any = "Teste";
 let itemId = productName as string;
 let itemId1 = <string>productName;
+
+console.log(itemId); // Teste

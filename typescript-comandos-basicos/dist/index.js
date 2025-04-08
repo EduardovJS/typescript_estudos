@@ -14,15 +14,15 @@ const idks = ["teste", false, 1, 4]; // Uma lista de any
 // Tupla
 const perso = [1, "teste"]; // Devem seguir essa ordem na tupla
 const people = [
-  // Pode ser feito uma lista de tupla
-  [1, "Jane"],
-  [2, "Jon"],
+    // Pode ser feito uma lista de tupla
+    [1, "Jane"],
+    [2, "Jon"],
 ];
 // Enum
 var Direction;
 (function (Direction) {
-  Direction[(Direction["Up"] = 1)] = "Up";
-  Direction[(Direction["Down"] = 2)] = "Down";
+    Direction[Direction["Up"] = 1] = "Up";
+    Direction[Direction["Down"] = 2] = "Down";
 })(Direction || (Direction = {}));
 const direction = Direction.Up;
 console.log(direction);
@@ -30,3 +30,4 @@ console.log(direction);
 const productName = "Teste";
 let itemId = productName;
 let itemId1 = productName;
+console.log(itemId); // Teste
